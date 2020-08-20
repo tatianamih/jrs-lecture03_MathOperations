@@ -1,6 +1,5 @@
 package jrr.by.service;
 
-
 import jrr.by.jis.bean.MathOperation;
 
 public class MathOperationService {
