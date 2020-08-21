@@ -1,6 +1,5 @@
 package jrr.by.jis.bean;
 
-
 public class MathOperation {
     private int a;
     private int b;
