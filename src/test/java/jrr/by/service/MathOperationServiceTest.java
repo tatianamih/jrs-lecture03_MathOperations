@@ -18,7 +18,7 @@ public class MathOperationServiceTest {
 
     @Test
     public void differenceOfNumbersTest() {
-        MathOperation mathOperation = new MathOperation(2000, 600, 500.3, 600.6);
+        MathOperation mathOperation = new MathOperation(2000, 600, 500.3, 600.3);
         MathOperationService mathOperationService = new MathOperationService();
         int expected = 1400;
         int actual = mathOperationService.subtractionOfNumbers(mathOperation);

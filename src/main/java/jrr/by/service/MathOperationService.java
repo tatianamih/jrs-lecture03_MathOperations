@@ -10,6 +10,7 @@ public class MathOperationService {
     }
 
     public int subtractionOfNumbers(MathOperation mathOperation) {
+
         return mathOperation.getA() - mathOperation.getB();
     }
 
@@ -27,7 +28,8 @@ public class MathOperationService {
 
         return mathOperation.getA() % mathOperation.getB();
     }
-    public  double additionOfDouble(MathOperation mathOperation) {
+
+        public  double additionOfDouble(MathOperation mathOperation) {
         return mathOperation.getC() + mathOperation.getD();
     }
 }
