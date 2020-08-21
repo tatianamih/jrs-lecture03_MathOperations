@@ -9,8 +9,8 @@ public class MathOperationTest {
 
     @Test
     public void getA() {
-        MathOperation mathOperation = new MathOperation(14000, 10000, 50.2, 3000.2);
-        int expected = 14000;
+        MathOperation mathOperation = new MathOperation(11000, 10000, 50.2, 3000.2);
+        int expected = 11000;
         int actual = mathOperation.getA();
         assertEquals(expected, actual);
     }
